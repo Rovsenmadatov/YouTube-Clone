@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: black;
+  color: white;
+  overflow: hidden;
+}
+
+.videos {
+  width: 100%;
+  display: grid;
+  gap: 50px;
+  height: 100vh;
+  overflow: auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+}
+
+.videos::-webkit-scrollbar {
+  background: transparent;
+  width: 8px;
+  border-radius: 5px;
+}
+
+.videos::-webkit-scrollbar-thumb {
+  background: #818080;
+}
+
+.detail-page {
+  display: grid;
+  grid-template-columns: auto 400px;
+  gap: 40px;
+  padding: 40px 60px;
+}
+
+@media (min-width: 1400px) {
+  .detail-page {
+    padding: 40px 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .detail-page {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 140px auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.row .c-pic {
+  display: none;
+}
+
+.row .text {
+  display: none;
+}
+
+*::-webkit-scrollbar {
+  background: transparent;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
