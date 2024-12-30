@@ -17,5 +17,4 @@ This project is a YouTube clone project. The data received from the API has been
 
 ![](public/screenytb.gif)
 
-# YouTube-Clone
-# YouTube-Clone
+
