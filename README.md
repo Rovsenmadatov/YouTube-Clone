@@ -1,12 +1,12 @@
 # Libraries
 
-- reaction icons
-- axes
+- react icons
+- axios
 - react-router-dom
-- reaction player (video player)
-- grinding (number formatting)
+- react player (video player)
+- millify (number formatting)
 - moment (time formatting)
-- tail wind (styling) (on installation site)
+- tailwind (styling) (on installation site)
 
 # API
 
